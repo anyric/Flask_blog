@@ -1,13 +1,13 @@
 
 <html>
-    {% if title %}
-    <title>{{title}} - Simpleblog</title>
-    {% else %}
-    <title>Welcome to Simpleblog</title>
-    {% endif %}
-    <body>
-      <div>Simpleblog: <a href="/index">Home</a></div>
-      {% block content %}{% endblock %}
-    </body>
-  </html>
+  {% if title %}
+  <title>{{title}} - Simpleblog</title>
+  {% else %}
+  <title>Welcome to Simpleblog</title>
+  {% endif %}
+  <body>
+    <div>Simpleblog: <a href="/index">Home</a></div>
+    {% block content %}{% endblock %}
+  </body>
+</html>
     
